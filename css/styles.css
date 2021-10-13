@@ -1,0 +1,165 @@
+#title{
+    background-color: #1976D2;
+    color: #fff;
+}
+
+h1{
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding:0 0  4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem ;
+    font-family: "Montserrat";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30% ;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.symbol{
+    margin-bottom: 1rem;
+    size: 85%;
+}
+
+#testimonials{
+    background-color: rgb(75, 140, 206);    
+    
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image:hover{
+    blue;
+}
+
+#press{
+    background-color: rgb(75, 140, 206);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    background-color: #fff;
+    color: #1976D2;
+}
+
+.card p{
+    color: #1976D2;
+}
+
+@media (max-width:1028px){ 
+    #title{
+        text-align: center;
+    }
+        
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #1976D2;
+}
+
+.calltoaction{
+    padding: 3% 3%;
+    font-family: "Montserrat";
+    text-align: center;
+    
+}
+
+.cta-heading{
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    color: #fff
+}
+
+#footer{
+    margin:1% 2%;
+    text-align: center;
+    
+}
+
+.icon{
+    margin: 20px;
+    width: 20px;
+}
